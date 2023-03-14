@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    background-image: url('https://merriam-webster.com/assets/mw/images/article/art-wap-article-main/gray-background-7131-98db5e6ffc4972baa4087760291cbc3e@1x.jpg');
+    z-index: 0;
+}
+.A, .B{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+.A{
+    background-color: navy;
+}
+.B{
+    background-color: blue;
+}
+.A li{
+    color: white;
+    padding: 5px 40px;
+    font-family: 'Syne Mono', monospace;
+}
+.B li{
+    color: white;
+    padding: 5px 35px;
+    font-family: 'Syne Mono', monospace;
+}
+.C li{
+    color: violet;
+    padding: 1px 10px;
+}
+img{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+.D{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.D1, .D2, .D3{
+    background-color: white;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+.Bold{
+    font-weight: bold;
+}
+.Back{
+    display: block;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+}
+.C, .E, .F{
+    list-style: none;
+}
+.DD{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: navy;
+    color: white;
+    padding: 5px;
+}
+.Green{
+    color: green;
+}
+.sidebar{
+    visibility: hidden;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    color: black;
+    font-family: 'Syne Mono', monospace;
+    font-size: small;
+    padding: 30px;
+    overflow: scroll;
+}
+.sidebar .visible{
+    visibility: visible;
+    overflow: hidden;
+}
+.sidebar ul{
+    list-style: none;
+}
+.sidebar ul li img{
+    width: 20px;
+    height: 20px;
+}
+.B li button{
+    color: white;
+    background-color: blue;
+    font-family: 'Syne Mono', monospace;
+}
+.sidebar button{
+    background-color: gray;
+    color: white;
+    width: 50px;
+    height: 50px;
+}
